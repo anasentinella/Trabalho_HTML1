@@ -1,0 +1,30 @@
+body,html{
+    margin: 0;
+    height: 100%;
+}
+
+.bg{
+    background-image: url(imgSite/fundo\ jão\ 3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.menu{
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    color: #b82121;
+}
+.titulos{
+    font-size: 70px;
+    font-family: fantasy;
+    color: #8f0303;
+
+}
+.tabela{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
