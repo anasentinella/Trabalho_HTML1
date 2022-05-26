@@ -25,7 +25,10 @@ body,html{
 .tabela{
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
-    color: white;
+    color: #ffffff;
+    text-align: center;
+    
+    
 }
 .escrita{
     font-family: Arial, Helvetica, sans-serif;
