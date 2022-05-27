@@ -19,6 +19,8 @@
             padding-right: 10px;
             padding-bottom: 10px;
             padding-left: 10px;
+            position: relative;
+            left: 200px;
         }
     </style>
 </head>
@@ -56,11 +58,11 @@
 
     <b class="titulos"><u>
             <center>Turnê</center>
-        </u></b>
+        </u></b><br>
 
     <b>
         <div class="tabela">
-            <table border="5px" bordercolor="" width="50%" align="center"  bgcolor="#077193" height="80px" >
+            <table border="5px" bordercolor="" width="60%" align="center" bgcolor="#077193" height="80px">
                 <tr height="80px">
                     <td width="25%"><u>Data</u></td>
                     <td width="35%%"><u>Local</u></td>
@@ -210,12 +212,12 @@
                         placeholder="Nome" spellcheck>
                     <br><br>
 
-                    <label for="email">email</label> <br>
+                    <label for="email">email:</label> <br>
                     <input type="email" name="email" id="email" size="40" maxlength="15" minlength="10" required
                         placeholder="email" spellcheck>
                     <br><br>
 
-                    <label for="datanasc">Data de nascimento</label> <br>
+                    <label for="datanasc">Data de nascimento:</label> <br>
                     <input type="date" name="datanasc" id="datanasc">
                     <br><br>
 
@@ -223,8 +225,8 @@
                     <input type="text" name="Mensagem" id="mensagem" size="80" maxlength="90" minlength="3" required
                         placeholder="mensagem" spellcheck>
                     <br><br>
-                    <input type="submit" name="btnEnviar" value="Enviar">
                     <input type="reset" value="Limpar">
+                    <input type="submit" name="btnEnviar" value="Enviar">
                 </form>
 
             </border>
