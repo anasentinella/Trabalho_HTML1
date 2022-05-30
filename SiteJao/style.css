@@ -37,7 +37,7 @@ html {
 }
 
 .escrita {
-    margin-top: 10px;
+    
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     color: white;
@@ -46,8 +46,9 @@ html {
     position: absolute;
     left: 10px;
     width: 72%;
-    height: 160%;
+    height: 80%;
     padding: 20px 25px 10px 25px;
+    margin-bottom: 5px;
 }
 
 .Subtitulos{
