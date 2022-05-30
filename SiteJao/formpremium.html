@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Premium</title>
+    <link rel="stylesheet" href="style.css">
+    <style type="text/css">
+        #form {
+            background-color: #077193;
+            text-align: center;
+            font-size: 25px;
+            font-family: fantasy;
+            color:white;
+            width: 50%;
+            height: 104%;
+            position: relative;
+            left: 25%;            
+
+        }
+    </style>
+</head>
+
+<body class="bg">
+
+    <a class="menu" href="pagInicial.html" style="position:absolute; left: 10%;">Início</a>
+    <a class="menu" href="pagBiografia.html" style="position:absolute; left: 22%;">Biografia</a>
+    <a class="menu" href="pagDiscografia.html" style="position:absolute; left: 35%;">Discografia</a>
+    <a class="menu" href="pagLoja.html" style="position:absolute; left: 50%;">Loja</a>
+    <a class="menu" href="pagPremium.html" style="position:absolute; left: 60%;">Seja Premium</a>
+    <br><br><br><br><br><br>
+    
+    <h1 class="titulos"
+        style="background-color: #077193; width: 60%; position: relative; left: 20%; text-align: center;"><u>Seja
+            Premium</u>
+    </h1>
+
+
+    <div id="form">
+        <border>
+            <form>
+                <legend>
+                    <h3> Assinatura: </h3>
+                </legend>
+  
+                <fieldset>
+                <label for="nome">Nome Completo:</label> <br>
+                <input type="text" name="nome" id="nome" size="60" maxlength="45" minlength="3" required
+                    placeholder="Nome" spellcheck>
+                <br><br>
+
+                <label for="email">Email:</label> <br>
+                <input type="Email" name="Email" id="Email" size="40" maxlength="70" minlength="10" required
+                    placeholder="Email" spellcheck>
+                <br><br>
+
+                <label for="datanasc">Data de nascimento:</label> <br>
+                <input type="date" name="datanasc" id="datanasc">
+                <br><br>
+
+                <label for="telefone">Numero de telefone: </label><br>
+                <input type="text" name="telefone" id="telefone" size="20" maxlength="20" minlength="10" required
+                placeholder="Telefone">
+                <br><br>
+
+                </fieldset>
+                <fieldset>
+                <label for="tipo">Tipo do Cartão: </label><br><br>
+                Crédito<input type="radio" name="tpcartao" value="Crédito">
+                Débito<input type="radio" name="tpcartao" value="Débito" checked>
+                <br><br>
+          
+              <label for="nomecart">Nome no Cartão:</label> <br>
+               <input type="text" name="nomecart" id="nomecart" size="20" maxlength="30" minlength="10" required placeholder="Nome no Cartão"spellcheck>
+              <br><br>
+          
+              <label for="numcartao">Número do Cartão: </label> <br>
+              <input type="number" name="numcartao" id="numcartao" size="20" maxlength="15" minlength="10" required placeholder="Número do Cartão" spellcheck>
+              <br><br>
+          
+              Bandeira do Cartão:<br>
+              <select name="bandeira" id="bandeira">
+                <option value="Msc">Mastercard </option>
+                <option value="Visa">Visa</option>
+                <option value="Elo" selected>Elo</option>
+                <option value="Hpc">Hipercard</option>
+                <option value="Ame">American Express</option>
+                <option value="Mst">Maestro</option>
+              </select>
+              <br><br>
+          
+              <label for="codseg">Código de Segurança:</label> <br>
+              <input type="number" name="codseg" id="codseg" size="4" maxlength="3" minlength="3" required placeholder="Cod Segurança Cartão" spellcheck>
+              <br><br>
+
+              </fieldset>
+
+                <input type="reset" value="Limpar" size="20">
+                <input type="submit" name="btnEnviar" value="Enviar" size="20">
+            </form>
+
+        </border>
+
+
+
+
+
+    </div>
+    <br><br><br><br>
+
+</body>
+
+</html>
