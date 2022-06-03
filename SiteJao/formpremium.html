@@ -16,9 +16,10 @@
             font-family: fantasy;
             color:white;
             width: 45%;
-            height: 104%;
+            height:90%;
             position: relative;
-            left: 28%;            
+            left: 28%; 
+            border-radius: 10%;           
 
         }
     </style>
@@ -29,24 +30,25 @@
     <a class="menu" href="index.html" style="position:absolute; left: 10%;">Início</a>
     <a class="menu" href="pagBiografia.html" style="position:absolute; left: 22%;">Biografia</a>
     <a class="menu" href="pagDiscografia.html" style="position:absolute; left: 35%;">Discografia</a>
-    <a class="menu" href="pagLoja.html" style="position:absolute; left: 50%;">Loja</a>
+    <a class="menu" href="pagLoja.html" style="position:absolute; left: 52%;">Loja</a>
     <a class="menu" href="pagPremium.html" style="position:absolute; left: 60%;">Seja Premium</a>
     <br><br><br><br><br><br>
     
     <h1 class="titulos"
-        style="background-color: #077193; width: 45%; position: relative; left: 28%; text-align: center;"><u>Seja
+        style="background-color: #077193; width: 45%; position: relative; left: 28%; text-align: center; border-radius: 10%;"><u>Seja
             Premium</u>
     </h1>
 
 
     <div id="form">
-        <border>
+    <br>
             <form>
                 <legend>
-                    <h3> Assinatura: </h3>
+                     <u class="menu">Assinatura:</u> 
                 </legend>
   
-                <fieldset>
+                <br><br>
+
                 <label for="nome">Nome Completo:</label> <br>
                 <input type="text" name="nome" id="nome" size="60" maxlength="45" minlength="3" required
                     placeholder="Nome" spellcheck>
@@ -66,9 +68,13 @@
                 placeholder="Telefone">
                 <br><br>
 
-                </fieldset>
-                <fieldset>
-                <label for="tipo">Tipo do Cartão: </label><br><br>
+            </form>  
+            </div><br>
+
+            <div id="form">
+                <br>
+                <form>
+                    <label for="tipo">Tipo do Cartão: </label><br><br>
                 Crédito<input type="radio" name="tpcartao" value="Crédito">
                 Débito<input type="radio" name="tpcartao" value="Débito" checked>
                 <br><br>
@@ -96,19 +102,13 @@
               <input type="number" name="codseg" id="codseg" size="4" maxlength="3" minlength="3" required placeholder="Cod Segurança Cartão" spellcheck>
               <br><br>
 
-              </fieldset>
-
                 <input type="reset" value="Limpar" size="20">
                 <input type="submit" name="btnEnviar" value="Enviar" size="20">
-            </form>
+                </form>
+            </div>
 
-        </border>
+            
 
-
-
-
-
-    </div>
     <br><br><br><br>
 
 </body>
